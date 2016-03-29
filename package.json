@@ -1,6 +1,6 @@
 {
   "name": "jjvein-deepequal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "compare two parameters where they are deeply equal。",
   "main": "index.js",
   "scripts": {
