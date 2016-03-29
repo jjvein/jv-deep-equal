@@ -26,7 +26,7 @@ var deepEqual = module.exports = function(first, second, opts) {
         return objectEqual(first, second, opts) 
     }
 }
-
+//如果是null或者undefined，无法验证全等.
 function nullOrUndefined(a) {
     if(a === null || a === undefined) return true
 
